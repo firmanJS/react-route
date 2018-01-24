@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom'
 
-import page1 from './components/page1';
+import navhead from './components/NavHeader';
 
 // ini fungsi lain
 // export default function() {
@@ -21,7 +21,7 @@ class RouteHeader extends Component {
               <li><NavLink to="/page3" activeStyle={{ fontWeight: 'bold' }}>Page 3</NavLink></li>
             </ul>
             <Switch>
-              <Route exact path="/page1" component={page1}/>
+              <Route exact path="/page1" component={navhead}/>
             </Switch>
             <div className="src-area">
               <form>

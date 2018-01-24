@@ -4,7 +4,9 @@ import RouteHeader from './RouteHeader';
 class App extends Component {
   render() {
     return (
-      <RouteHeader />
+      <div className="App">
+        <RouteHeader />
+      </div>
     );
   }
 }
