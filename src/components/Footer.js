@@ -26,7 +26,7 @@ class Footer extends Component {
               <div className="footer-section">
                 <h4 className="title"><b>CATAGORIES</b></h4>
                 <ul>
-                  <li><a href="#">BEAUTY</a></li>
+                  <li><a href="">BEAUTY</a></li>
                   <li><a href="">HEALTH</a></li>
                   <li><a href="">MUSIC</a></li>
                 </ul>
