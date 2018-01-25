@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom'
 
 import navhead from './components/NavHeader';
-
+import Logo_header from './images/logo.png';
 // ini fungsi lain
 // export default function() {
 class RouteHeader extends Component {
@@ -12,7 +12,7 @@ class RouteHeader extends Component {
         <header>
       		<div className="container-fluid position-relative no-side-padding">
       			<a href="" className="logo">
-              {/* <img/> */}
+              <img src={Logo_header} alt="LogosImage"/>
             </a>
             <div className="menu-nav-icon" data-nav-menu="#main-menu"><i className="ion-navicon"></i></div>
             <ul className="main-menu visible-on-click" id="main-menu">
